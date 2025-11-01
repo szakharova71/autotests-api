@@ -3,7 +3,8 @@ from typing import TypedDict
 from httpx import Response
 
 from clients.api_client import APIClient
-from clients.private_http_builder import get_private_http_client, AuthenticationUserDict
+# Вместо AuthenticationUserDict импортируем AuthenticationUserSchema
+from clients.private_http_builder import get_private_http_client, AuthenticationUserSchema
 
 
 # Добавили описание структуры задания
@@ -151,7 +152,8 @@ class ExercisesClient(APIClient):
 
 
 # Добавляем builder для ExercisesClient
-def get_exercises_client(user: AuthenticationUserDict) -> ExercisesClient:
+# Вместо AuthenticationUserDict используем AuthenticationUserSchema
+def get_exercises_client(user: AuthenticationUserSchema) -> ExercisesClient:
     """
     Функция создаёт экземпляр ExercisesClient с уже настроенным HTTP-клиентом.
 
