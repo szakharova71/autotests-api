@@ -2,7 +2,7 @@ from http import HTTPStatus
 import pytest
 from clients.authentication.authentication_schema import LoginRequestSchema, LoginResponseSchema
 from clients.authentication.authentication_client import AuthenticationClient
-from tests.conftest import UserFixture
+from fixtures.users import UserFixture  # Заменяем импорт
 
 from tools.assertions.authentication import assert_login_response
 from tools.assertions.base import assert_status_code

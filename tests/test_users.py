@@ -5,7 +5,7 @@ import pytest
 from clients.users.private_users_client import PrivateUsersClient
 from clients.users.public_users_client import PublicUsersClient
 from clients.users.users_schema import CreateUserRequestSchema, CreateUserResponseSchema, GetUserResponseSchema
-from tests.conftest import UserFixture
+from fixtures.users import UserFixture  # Заменяем импорт
 # Импортируем функцию проверки статус-кода
 from tools.assertions.base import assert_status_code
 # Импортируем функцию для валидации JSON Schema
