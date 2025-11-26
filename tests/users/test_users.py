@@ -1,11 +1,16 @@
 from http import HTTPStatus
-# Импортируем библиотеку pytest
+import allure
 import pytest
+from allure_commons.types import Severity  # Импортируем enum Severity из Allure
 
 from clients.users.private_users_client import PrivateUsersClient
 from clients.users.public_users_client import PublicUsersClient
 from clients.users.users_schema import CreateUserRequestSchema, CreateUserResponseSchema, GetUserResponseSchema
 from fixtures.users import UserFixture  # Заменяем импорт
+from tools.allure.epics import AllureEpic  # Импортируем enum AllureEpic
+from tools.allure.features import AllureFeature  # Импортируем enum AllureFeature
+from tools.allure.stories import AllureStory  # Импортируем enum AllureStory
+from tools.allure.tags import AllureTag  # Импортируем enum AllureTag
 # Импортируем функцию проверки статус-кода
 from tools.assertions.base import assert_status_code
 # Импортируем функцию для валидации JSON Schema
@@ -17,8 +22,15 @@ from tools.fakers import fake
 
 @pytest.mark.users  # Добавили маркировку users
 @pytest.mark.regression  # Добавили маркировку regression
+@allure.tag(AllureTag.USERS, AllureTag.REGRESSION)  # Используем enum
+@allure.epic(AllureEpic.LMS)  # Добавили epic
+@allure.feature(AllureFeature.USERS)  # Добавили feature
 class TestUsers:
     @pytest.mark.parametrize("domain", ["mail.ru", "gmail.com", "example.com"])
+    @allure.tag(AllureTag.CREATE_ENTITY)  # Используем enum
+    @allure.story(AllureStory.CREATE_ENTITY)  # Добавили story
+    @allure.title("Create user")  # Добавляем человекочитаемый заголовок
+    @allure.severity(Severity.BLOCKER)  # Добавили severity
     def test_create_user(self, domain: str, public_users_client: PublicUsersClient): # Используем фикстуру API клиента
         # Удалили инициализацию API клиента из теста
         # Формируем фейковый email с параметризованным доменом
@@ -40,7 +52,10 @@ class TestUsers:
         # Проверяем, что тело ответа соответствует ожидаемой JSON-схеме
         validate_json_schema(response.json(), response_data.model_json_schema())
 
-
+    @allure.tag(AllureTag.GET_ENTITY)  # Используем enum
+    @allure.story(AllureStory.GET_ENTITY)  # Добавили story
+    @allure.title("Get user me")
+    @allure.severity(Severity.CRITICAL)  # Добавили severity
     def test_get_user_me(self, function_user: UserFixture, # Используем фикстуру для создания пользователя
                          private_users_client: PrivateUsersClient):
 
