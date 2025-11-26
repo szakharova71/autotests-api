@@ -21,8 +21,11 @@ from tools.assertions.schema import validate_json_schema
 @allure.tag(AllureTag.REGRESSION, AllureTag.AUTHENTICATION)  # Добавили теги
 @allure.epic(AllureEpic.LMS)  # Добавили epic
 @allure.feature(AllureFeature.AUTHENTICATION)  # Добавили feature
+@allure.parent_suite(AllureEpic.LMS)
+@allure.suite(AllureFeature.AUTHENTICATION)
 class TestAuthentication:
     @allure.story(AllureStory.LOGIN)  # Добавили story
+    @allure.sub_suite(AllureStory.LOGIN)
     @allure.title("Login with correct email and password")
     @allure.severity(Severity.BLOCKER)  # Добавили severity
     def test_login(self, function_user: UserFixture,  # Используем фикстуру для создания пользователя

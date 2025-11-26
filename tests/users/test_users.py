@@ -25,10 +25,13 @@ from tools.fakers import fake
 @allure.tag(AllureTag.USERS, AllureTag.REGRESSION)  # Используем enum
 @allure.epic(AllureEpic.LMS)  # Добавили epic
 @allure.feature(AllureFeature.USERS)  # Добавили feature
+@allure.parent_suite(AllureEpic.LMS)
+@allure.suite(AllureFeature.USERS)
 class TestUsers:
     @pytest.mark.parametrize("domain", ["mail.ru", "gmail.com", "example.com"])
     @allure.tag(AllureTag.CREATE_ENTITY)  # Используем enum
     @allure.story(AllureStory.CREATE_ENTITY)  # Добавили story
+    @allure.sub_suite(AllureStory.CREATE_ENTITY)
     @allure.title("Create user")  # Добавляем человекочитаемый заголовок
     @allure.severity(Severity.BLOCKER)  # Добавили severity
     def test_create_user(self, domain: str, public_users_client: PublicUsersClient): # Используем фикстуру API клиента
@@ -54,6 +57,7 @@ class TestUsers:
 
     @allure.tag(AllureTag.GET_ENTITY)  # Используем enum
     @allure.story(AllureStory.GET_ENTITY)  # Добавили story
+    @allure.sub_suite(AllureStory.GET_ENTITY)
     @allure.title("Get user me")
     @allure.severity(Severity.CRITICAL)  # Добавили severity
     def test_get_user_me(self, function_user: UserFixture, # Используем фикстуру для создания пользователя
