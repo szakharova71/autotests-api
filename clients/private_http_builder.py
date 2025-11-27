@@ -8,6 +8,7 @@ from clients.authentication.authentication_client import get_authentication_clie
 from clients.authentication.authentication_schema import LoginRequestSchema
 
 from clients.event_hooks import curl_event_hook  # Импортируем event hook
+from config import settings  # Импортируем настройки
 
 
 # Добавили суффикс Schema вместо Dict
@@ -37,8 +38,8 @@ def get_private_http_client(user: AuthenticationUserSchema) -> Client:
     login_response = authentication_client.login(login_request)
 
     return Client(
-        timeout=100,
-        base_url="http://localhost:8000",
+        timeout=settings.http_client.timeout,  # Таймаут теперь берётся из настроек
+        base_url=settings.http_client.client_url,  # Базовый URL также из настроек,
         # Добавляем заголовок авторизации
         # Значения теперь извлекаем не по ключу, а через атрибуты
         headers={"Authorization": f"Bearer {login_response.token.access_token}"},
