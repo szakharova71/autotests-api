@@ -7,7 +7,8 @@ from clients.authentication.authentication_client import get_authentication_clie
 # Импортируем модель LoginRequestSchema
 from clients.authentication.authentication_schema import LoginRequestSchema
 
-from clients.event_hooks import curl_event_hook  # Импортируем event hook
+# Импортируем хуки логирования запроса и ответа
+from clients.event_hooks import curl_event_hook, log_request_event_hook, log_response_event_hook  # Импортируем event hook
 from config import settings  # Импортируем настройки
 
 
@@ -43,5 +44,8 @@ def get_private_http_client(user: AuthenticationUserSchema) -> Client:
         # Добавляем заголовок авторизации
         # Значения теперь извлекаем не по ключу, а через атрибуты
         headers={"Authorization": f"Bearer {login_response.token.access_token}"},
-        event_hooks={"request": [curl_event_hook]}  # Добавляем event hook для запроса
+        event_hooks={
+            "request": [curl_event_hook, log_request_event_hook],  # Логируем исходящие HTTP-запросы
+            "response": [log_response_event_hook]     # Логируем полученные HTTP-ответы
+        }
     )
