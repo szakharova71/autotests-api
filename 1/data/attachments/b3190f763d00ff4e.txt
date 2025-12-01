@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/c1497fdd-696a-433c-a72d-fe5ab151ae93' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAxVDE5OjE2OjExLjk1NjkzOCIsInVzZXJfaWQiOiI3YTQ5YThjZi04MDg2LTRkNjctYmUyYy1kYjQyNjhmMjNmZGUifQ.Ar7OhsqET1VtEGkYV9E-WVUnS3p3JAw_X0qgHji4u-8' \
+  -H 'content-length: 275' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Subject ground for development music town.","maxScore":66,"minScore":27,"description":"Both surface can north. Begin military across though scientist than much form.\nReal high personal civil teach stand site. Season believe tax contain.","estimatedTime":"5 weeks"}'

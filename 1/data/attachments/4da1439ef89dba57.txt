@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAxVDE5OjE2OjExLjM3MTY4OSIsInVzZXJfaWQiOiI3ODI2MTcwYy1jYzc0LTRjZmEtOTI2My03YmNjMzY1ZjFhYWYifQ.3vh1aTT9VoYvYjznCm_Y80vt_6S13rCc5q6QY4UtDao' \
+  -H 'content-length: 398' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Student dark chair need firm house fish.","maxScore":62,"minScore":23,"description":"Edge our bank Congress imagine. Thus offer thought mother rule.\nIndeed through section body pass rather change. Benefit pick road. Television fast water yourself.","estimatedTime":"1 weeks","previewFileId":"cdb7ab5f-e3cc-473e-9659-ffae7c7c5ab9","createdByUserId":"7826170c-cc74-4cfa-9263-7bcc365f1aaf"}'

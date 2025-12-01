@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAxVDE5OjE2OjE0LjM1Mjg3MSIsInVzZXJfaWQiOiI5NWU3YWExNC0yOTIyLTQzZmQtYWNiMS03MDFlYjkxNDc5MTkifQ.11MZuIavR5rcgsxQbmxt6_UcOK6Raq6Cdf1iUl4yXwU' \
+  -H 'content-length: 443' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Industry anything allow produce natural run security born.","maxScore":74,"minScore":17,"description":"Sing growth I share.\nChallenge hundred arm bit remember another. Drive avoid instead tend maybe walk institution.\nNational believe agree get language. Simple want leave realize plant able.","estimatedTime":"7 weeks","previewFileId":"58e61f28-2c6f-4c76-ae9d-dd4d4c727aea","createdByUserId":"95e7aa14-2922-43fd-acb1-701eb9147919"}'

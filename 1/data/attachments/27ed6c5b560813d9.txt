@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAxVDE5OjE2OjEyLjYwMTQ4MCIsInVzZXJfaWQiOiI4Zjg4MWRlYy00NWYzLTQ5YjMtOTM5MS1jYWUwY2IwZDYxYjAifQ.aMAklZC9ZgMzwzivIx0OC2npVi43S0fTzmRNWKnpmVc' \
+  -H 'content-length: 358' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Someone exactly force analysis personal so hope quite.","maxScore":73,"minScore":6,"description":"Billion final indeed someone agree then according. A TV choose couple also thank. Often never bag worker not.","estimatedTime":"10 weeks","previewFileId":"65f22792-768d-424e-9a04-fd69cf27a7ee","createdByUserId":"8f881dec-45f3-49b3-9391-cae0cb0d61b0"}'

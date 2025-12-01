@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAxVDE5OjE2OjEzLjc2NjM5MyIsInVzZXJfaWQiOiJiODNiYjJiMC0xMTY3LTQ2MWItOTVkZi1mYjc3Yjk3ZWExOGEifQ.umPCPt0ZA01MYCQ7DYF_YGdjPOCEZihlhkR25riv4gA' \
+  -H 'content-length: 322' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sell age position while central director.","courseId":"07263f07-f27e-4210-b726-6f2302f9010f","maxScore":79,"minScore":3,"orderIndex":76,"description":"Man relate respond fall condition situation wind experience. Left positive color skill hour manager.\nLook improve public cost base.","estimatedTime":"10 weeks"}'

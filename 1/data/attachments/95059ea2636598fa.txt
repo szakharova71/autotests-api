@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAxVDE5OjE2OjEzLjE4NTExOSIsInVzZXJfaWQiOiJkY2EyY2FmYy1jNmJjLTQ0YmItOWI4Ni1iYzA2MjE1NGQxYjcifQ.-h60v9YnIQq7WyhHJCnJQCAn1O9O-eHtQPUMZimP00I' \
+  -H 'content-length: 373' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Still political address a.","maxScore":78,"minScore":4,"description":"Middle approach impact benefit. Score enter compare success minute tonight.\nThere rather least cell street director something. Significant left teacher.","estimatedTime":"8 weeks","previewFileId":"7693e438-5b76-43f3-a5dc-75602827e1e5","createdByUserId":"dca2cafc-c6bc-44bb-9b86-bc062154d1b7"}'

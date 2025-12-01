@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAxVDE5OjE2OjE1LjU3NDQzOCIsInVzZXJfaWQiOiJjZTRmYjlkMy1hM2U4LTQxZmItYTM1Yi04MWE4NDEyMGFjMjkifQ.gtxoHBIuf1XrlMBWMg9hlrStmCHDURn2tg-U3CfDG3E' \
+  -H 'content-length: 351' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Man time process five.","maxScore":82,"minScore":10,"description":"In cup happy reality name election player operation. South sport remain school today social during economic. Push himself box seek go.","estimatedTime":"7 weeks","previewFileId":"9f7f6820-a496-4cbb-8f11-82e94f9bdf50","createdByUserId":"ce4fb9d3-a3e8-41fb-a35b-81a84120ac29"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAxVDE5OjE2OjExLjk1NjkzOCIsInVzZXJfaWQiOiI3YTQ5YThjZi04MDg2LTRkNjctYmUyYy1kYjQyNjhmMjNmZGUifQ.Ar7OhsqET1VtEGkYV9E-WVUnS3p3JAw_X0qgHji4u-8' \
+  -H 'content-length: 395' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Big home keep why hot.","maxScore":98,"minScore":10,"description":"Operation purpose leg then ahead view. Approach across capital at sign although increase. Factor foreign lawyer choice. Piece choose cut game including.\nRecently kind sea eight.","estimatedTime":"8 weeks","previewFileId":"5dc6ce19-057b-42cc-ab84-a40fd73034f4","createdByUserId":"7a49a8cf-8086-4d67-be2c-db4268f23fde"}'
