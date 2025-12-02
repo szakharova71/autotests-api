@@ -56,7 +56,7 @@ jobs:
         run: |
           pytest -m regression --alluredir=allure-results --numprocesses 2  # Запускаем тесты, отмеченные как "regression", генерируем результаты для Allure
 
-      #  сохраняем allure-results как артефакт
+      #  Сохраняем allure-results как артефакт
       - name: Upload Allure results as artifact
         uses: actions/upload-artifact@v5
         with:
