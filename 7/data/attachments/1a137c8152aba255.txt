@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAyVDE0OjQ2OjUzLjYyNzc4OSIsInVzZXJfaWQiOiIyZTg4NDY4My00MjhmLTQwMDEtOTY0YS02ZDNmODhhYjI5NjQifQ.q7NNKcB57-BMpTKJ1U3dY0p0WBF79Km_iQOKr3rNdRo' \
+  -H 'content-length: 345' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Billion that economic life boy value few.","maxScore":74,"minScore":1,"description":"Wind free single watch. Blood truth skin sense life build. Area should daughter public lawyer be size medical.","estimatedTime":"8 weeks","previewFileId":"52750ca9-8460-48b5-b8f3-23f2b6725ccf","createdByUserId":"2e884683-428f-4001-964a-6d3f88ab2964"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/f8917195-b2d0-4fe9-bdbb-696fbe7f6253' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAyVDE0OjQ2OjUwLjA1OTI2MCIsInVzZXJfaWQiOiIzYWZkYWU3ZS1iY2QwLTRkYzAtOGIwMy05MDY2ZTA5ODMzMDgifQ._SZfrzXXnP_yiK-2rU_iKfnUK4DveBiRM0b9DJNDn3M' \
+  -H 'content-length: 230' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Plan its particularly money add green training.","maxScore":61,"minScore":3,"description":"Protect experience animal. Realize because ability bill store six rather. After bank strategy person.","estimatedTime":"9 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAyVDE0OjQ2OjUxLjgyMTY4MyIsInVzZXJfaWQiOiIzYzI2ZjVlZS0xYzc1LTQ3NjctOTNiNS0wMjI4ZGE2N2JhNzAifQ.43NnVSiMB9QOwcyrGOrU9e3gK3460RqXdewFwa7D2iw' \
+  -H 'content-length: 429' \
+  -H 'content-type: application/json' \
+  -d '{"title":"President number bring under our address.","maxScore":89,"minScore":16,"description":"Head onto around raise issue from up. Human stock whatever hand agency. Board safe adult Republican sit her during.\nOwn or point forget. Sign nice education growth be improve official popular.","estimatedTime":"2 weeks","previewFileId":"350e66d9-1be6-429d-8343-7355322d493b","createdByUserId":"3c26f5ee-1c75-4767-93b5-0228da67ba70"}'

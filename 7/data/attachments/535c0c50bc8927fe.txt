@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAyVDE0OjQ2OjUwLjA1OTI2MCIsInVzZXJfaWQiOiIzYWZkYWU3ZS1iY2QwLTRkYzAtOGIwMy05MDY2ZTA5ODMzMDgifQ._SZfrzXXnP_yiK-2rU_iKfnUK4DveBiRM0b9DJNDn3M' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sit employee right something firm she treat say.","maxScore":82,"minScore":4,"description":"Industry decision actually oil. Most international despite before.\nParent already every market national. Among not watch where.","estimatedTime":"9 weeks","previewFileId":"4883f326-593c-4702-912b-0a4288411d0b","createdByUserId":"3afdae7e-bcd0-4dc0-8b03-9066e0983308"}'

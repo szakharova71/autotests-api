@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAyVDE0OjQ2OjQ5LjQ2NjE2NiIsInVzZXJfaWQiOiI5MDczMTdjYy0yODU3LTQxYTgtYWIxMy03YTAzOTlmZTRhY2QifQ.tJTIBsAumv2KtOPevwatTTAu4Prad3xuiRhihyQ4nqU' \
+  -H 'content-length: 452' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sometimes important interest government many company born.","maxScore":92,"minScore":10,"description":"Blood spend land she detail about water. Ago identify story. Know financial fine note course.\nLocal pass thing prove view. Either use strong wall themselves.\nSpend drug among police thus sort main.","estimatedTime":"3 weeks","previewFileId":"3bf1228d-0c5d-4387-8993-22da84cd10a8","createdByUserId":"907317cc-2857-41a8-ab13-7a0399fe4acd"}'

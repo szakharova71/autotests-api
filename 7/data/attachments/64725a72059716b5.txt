@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAyVDE0OjQ2OjUyLjQwMzUxMiIsInVzZXJfaWQiOiIyNTMzMWQ0Zi1iZTBkLTRkNWItYjdhMS1mMjk2NjFlNzYxYWIifQ.glOCYgECPzpKH-z7KxgUeBdp3pRNGu2G6WqbUmNtbhU' \
+  -H 'content-length: 383' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hard sport certain final.","maxScore":68,"minScore":18,"description":"Air ever possible they. Safe owner majority protect election among.\nEnergy despite dark behind radio meet. Establish improve any field floor firm policy American.","estimatedTime":"7 weeks","previewFileId":"bb692ef6-2861-4265-8566-7c75bea4b6bc","createdByUserId":"25331d4f-be0d-4d5b-b7a1-f29661e761ab"}'
