@@ -58,7 +58,6 @@ jobs:
 
       # 8. Сохраняем allure-results directory как артефакт
       - name: Upload Allure results as artifact
-        if: always
         uses: actions/upload-artifact@v5
         with:
           name: allure-results
