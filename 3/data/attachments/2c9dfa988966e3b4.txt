@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAyVDEyOjI3OjM5LjQ4MDkzMSIsInVzZXJfaWQiOiI4MzEyOThiYi0wZjk4LTQzNjgtOTZhYy0wYTdmMTgxYjYxY2UifQ.DJrGiZxg7yiF7dCaG4qrQd623a_ypxhpTndB-dspg2M' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Girl start sing.","maxScore":89,"minScore":26,"description":"Teacher under candidate city. Rise family great understand join remember view. Serious outside according to establish wide Mrs.\nTraining green issue pretty take here.","estimatedTime":"10 weeks","previewFileId":"2d24f238-f72e-432e-a3fe-eb28f0859dba","createdByUserId":"831298bb-0f98-4368-96ac-0a7f181b61ce"}'

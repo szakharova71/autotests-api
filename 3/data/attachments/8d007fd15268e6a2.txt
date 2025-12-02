@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/16562326-2b9d-4005-b87f-3c288b465cd9' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAyVDEyOjI3OjM4LjAwOTU5MCIsInVzZXJfaWQiOiJmZTVmM2RiOS1jMTc5LTQ4NDUtOGM5Ny05ODAxNjAwZDdjMWEifQ.XkGuhVakLXS2chXtjGohIexgQ9lqGkwgEZ-Rij3_zKs' \
+  -H 'content-length: 243' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Describe price daughter.","maxScore":76,"minScore":30,"description":"Bad available item budget include image far. Majority think own all. Try at coach know relationship west. Pm south process professional.","estimatedTime":"8 weeks"}'

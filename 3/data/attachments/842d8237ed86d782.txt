@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAyVDEyOjI3OjM2Ljg2NDAzMiIsInVzZXJfaWQiOiIxNzU1YTczOC00YzFlLTQ2OTctOTk0Yy1jYjZkNjdmZWUwM2QifQ.Q7xMOzxTDB3FJsdW3dLw6Xx1jHXFANvZPLIS2RbVX7E' \
+  -H 'content-length: 352' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Imagine to detail usually.","maxScore":88,"minScore":12,"description":"Try smile prove sure protect. Major save husband effect agency.\nSeason season deep cell walk meet accept wide. Million our follow.","estimatedTime":"2 weeks","previewFileId":"e64e1e63-c2e5-4874-903a-9a88d149e605","createdByUserId":"1755a738-4c1e-4697-994c-cb6d67fee03d"}'

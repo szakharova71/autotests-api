@@ -1,0 +1,20 @@
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:85 Check create course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Size side go.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 89
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 17
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Miss truth candidate take.
+Single sort there this pressure window product investment. Represent message east.
+Have else bank newspaper. Agent particularly knowledge husband.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 6 weeks
+INFO     BASE_ASSERTIONS:base.py:36 Check that "preview_file_id" equals to 0be5762e-c81b-43cf-922f-f1d199a48977
+INFO     BASE_ASSERTIONS:base.py:36 Check that "created_by_user_id" equals to 4173ffaa-97aa-4be4-aebf-aa28e8ae96fa
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

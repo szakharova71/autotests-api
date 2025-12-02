@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAyVDEyOjI3OjM5LjIwNzgxOSIsInVzZXJfaWQiOiJjYTAzZTUzOS0xMmViLTRiOTQtOWE0NC00MDcwNWZhNGU2OTIifQ.GYxu6Kqz2DEIbmQw472dAkqg1oe-XA6pqjoCdxQ1Bl8' \
+  -H 'content-length: 305' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Too these down hot thing hair.","maxScore":98,"minScore":12,"description":"Give point will deal tax else money. Space single size answer. Soon set trouble.","estimatedTime":"1 weeks","previewFileId":"72370e09-70ae-4379-a53c-5be66a7b6e4b","createdByUserId":"ca03e539-12eb-4b94-9a44-40705fa4e692"}'

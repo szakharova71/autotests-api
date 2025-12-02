@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/5f37aeab-0db4-4c18-a2b0-bd624b9744f5' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAyVDEyOjI3OjM5LjQ4MDkzMSIsInVzZXJfaWQiOiI4MzEyOThiYi0wZjk4LTQzNjgtOTZhYy0wYTdmMTgxYjYxY2UifQ.DJrGiZxg7yiF7dCaG4qrQd623a_ypxhpTndB-dspg2M' \
+  -H 'content-length: 320' \
+  -H 'content-type: application/json' \
+  -d '{"title":"List read hundred edge.","maxScore":78,"minScore":1,"orderIndex":85,"description":"Blue trade sound to difference little manager. World job any approach read seem need. Republican stage leader cup.\nPattern within start. However morning impact action. No hotel it pressure discover.","estimatedTime":"5 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAyVDEyOjI3OjQwLjM5MjI4NCIsInVzZXJfaWQiOiJkMDY2YzkyNC0zODBmLTQ1YTMtOWEwYy03MmM1MWFkNWExMjAifQ.ZKCu1GCj27_bPz6Wmk-WVckF3jI7z0WITA5dDNZKuGA' \
+  -H 'content-length: 419' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Daughter agent through choice their pattern.","maxScore":85,"minScore":30,"description":"Chair event term thus attorney. Stop of western or boy change early. Theory live maybe report letter man try.\nAlone say of thing reveal food. Late concern soldier successful near.","estimatedTime":"6 weeks","previewFileId":"cd951437-ccac-4796-8601-d3e0ac88fe91","createdByUserId":"d066c924-380f-45a3-9a0c-72c51ad5a120"}'

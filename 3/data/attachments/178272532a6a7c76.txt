@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAyVDEyOjI3OjQxLjU4NDk5MSIsInVzZXJfaWQiOiI0MzI5OGVmOC02NzkzLTQ3ODUtOGQ3Yy0xNDg2ZmVhNThmMTIifQ.1-hkkz6iTmDDQKqZuzqZfOvKzRQn4IeIMa-dE7uqTZw' \
+  -H 'content-length: 437' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Debate card realize mission particular end nothing song.","maxScore":66,"minScore":10,"description":"Responsibility need throw draw state. Learn animal situation even.\nMuch follow campaign smile from. Language affect can check. Ever chair town lot science. Game another social step eat.","estimatedTime":"6 weeks","previewFileId":"62aea16b-0eb8-4dd4-8cbd-e414418b7cfd","createdByUserId":"43298ef8-6793-4785-8d7c-1486fea58f12"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAyVDEyOjI3OjQwLjY2NTMxMCIsInVzZXJfaWQiOiIwOTk5NTU0NC05MTAzLTQ3ZTQtODg4Ny0yZWVhYjYzOWM1NDcifQ.53gtQqQGKAIkjDShJCz3Fjj9wljAStHK2rr2Ucvk3Nc' \
+  -H 'content-length: 414' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Population civil claim break make.","maxScore":88,"minScore":6,"description":"Four join age there change. We consumer sign could such. Development enter per number race lose across. Cause year kid cost executive born seem just.\nNorth hit cultural traditional gun.","estimatedTime":"9 weeks","previewFileId":"db06d8c0-4c5a-4871-85fd-7cf4455d3988","createdByUserId":"09995544-9103-47e4-8887-2eeab639c547"}'

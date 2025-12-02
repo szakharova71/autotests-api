@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAyVDEyOjI3OjM4LjI4Mjc3MiIsInVzZXJfaWQiOiI0MTczZmZhYS05N2FhLTRiZTQtYWViZi1hYTI4ZThhZTk2ZmEifQ.KRaRh-et7HM5TyaIQ5Hv_7Qekxtf1LYugEidKGJfX88' \
+  -H 'content-length: 383' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Size side go.","maxScore":89,"minScore":17,"description":"Miss truth candidate take.\nSingle sort there this pressure window product investment. Represent message east.\nHave else bank newspaper. Agent particularly knowledge husband.","estimatedTime":"6 weeks","previewFileId":"0be5762e-c81b-43cf-922f-f1d199a48977","createdByUserId":"4173ffaa-97aa-4be4-aebf-aa28e8ae96fa"}'
