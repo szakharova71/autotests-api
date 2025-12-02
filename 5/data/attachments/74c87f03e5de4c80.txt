@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAyVDEyOjU5OjExLjE0ODk3MiIsInVzZXJfaWQiOiI0NmFjZDE0Yy1iODI2LTRkODQtOWEyZS03ODRkOTVmY2NmM2YifQ.X-VeB6mprXV5m5zhyl_ol4GKFM-42sS0XOxNYCMsn8M' \
+  -H 'content-length: 309' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Attorney image democratic skill seven only.","courseId":"ae673b96-1f4b-4a94-abe8-6d50a8061a1f","maxScore":83,"minScore":26,"orderIndex":46,"description":"Raise yeah new wish quite sit. Allow discuss upon blue become. Home father audience drive peace remember ahead often.","estimatedTime":"9 weeks"}'

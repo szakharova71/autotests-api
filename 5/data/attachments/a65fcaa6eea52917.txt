@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/b4b121c2-4e19-49ce-83ab-5d3f3bc964de' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAyVDEyOjU5OjA5Ljk3NTM5MSIsInVzZXJfaWQiOiI3NzljZmVlYS00NDY1LTQyNzYtOGJlMy00MTAzMTY2MDY4N2QifQ.O9O579R7TTZsjDcdjWGv1A96DVatiSblYMHC6pIRwFk' \
+  -H 'content-length: 260' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Show occur door window hear perform.","maxScore":50,"minScore":9,"orderIndex":16,"description":"Develop summer view improve. Newspaper sure Democrat even available. Near sell director. Soon until those yet soon guy trade.","estimatedTime":"10 weeks"}'

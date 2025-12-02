@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAyVDEyOjU5OjExLjE0ODk3MiIsInVzZXJfaWQiOiI0NmFjZDE0Yy1iODI2LTRkODQtOWEyZS03ODRkOTVmY2NmM2YifQ.X-VeB6mprXV5m5zhyl_ol4GKFM-42sS0XOxNYCMsn8M' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Child commercial stay particular coach.","maxScore":88,"minScore":6,"description":"Avoid method relationship usually society. Hair happy individual two huge. Top east ten rise.\nRoom decision way just. Bill season value public boy.","estimatedTime":"3 weeks","previewFileId":"1e8c3047-9974-4304-8c51-8886af479357","createdByUserId":"46acd14c-b826-4d84-9a2e-784d95fccf3f"}'

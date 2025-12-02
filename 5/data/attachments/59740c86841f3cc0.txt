@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAyVDEyOjU5OjA4LjI0MTM4NCIsInVzZXJfaWQiOiJlODJkZTJkYy00ZGRiLTQ1NzMtYTI1NC0yNTQ5MmNjYjdkOTkifQ.wQJsOyZ8P-R0FIwQQClt7m_Y9q0O_jSjJvu4C4Xep_0' \
+  -H 'content-length: 374' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Your put spring staff use same enter.","maxScore":82,"minScore":7,"description":"Fact knowledge writer eight admit treat.\nUpon walk character doctor least next machine. Writer support tax true. Establish house unit similar.","estimatedTime":"1 weeks","previewFileId":"85c27ace-485e-419f-9480-3e855ec6b120","createdByUserId":"e82de2dc-4ddb-4573-a254-25492ccb7d99"}'

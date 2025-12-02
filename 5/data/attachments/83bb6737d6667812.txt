@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAyVDEyOjU5OjEwLjg3NDc0OCIsInVzZXJfaWQiOiI4NzFlMjIyYi1hYzhlLTQxZTItOTI3Zi1lOTQ5NDI5MGY5ZDIifQ.fOWDIN1Jkzfa9FudJDI172p3RAi9V-RMAu25tjXFcsU' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"It reveal mother quality.","maxScore":81,"minScore":15,"description":"Toward practice ability wish man. Office book line trip.\nData she happy star.\nEnjoy great window everyone fire. I movement term who history kitchen.","estimatedTime":"7 weeks","previewFileId":"6d33abc3-e274-47b0-8eaa-7e1288b09c19","createdByUserId":"871e222b-ac8e-41e2-927f-e9494290f9d2"}'

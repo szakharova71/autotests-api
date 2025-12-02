@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAyVDEyOjU5OjA5LjcwMTk5MiIsInVzZXJfaWQiOiI3NTgzN2I1Zi0yN2Q2LTQyOGUtYjdiMi01N2ZlOWY4YmMzZjcifQ.SraZktsTQgVhL2XNtdoI7-3n7CWN3uWpn3s4yM7ozhw' \
+  -H 'content-length: 378' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Half certainly where value join.","maxScore":94,"minScore":16,"description":"Happy participant picture among some participant. Some role beyond believe free eat dinner. Back majority go song practice family. Story suggest total.","estimatedTime":"8 weeks","previewFileId":"2df4993d-d13d-42ec-b0c4-febea2da31d3","createdByUserId":"75837b5f-27d6-428e-b7b2-57fe9f8bc3f7"}'

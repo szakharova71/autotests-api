@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAyVDEyOjU5OjA5Ljk3NTM5MSIsInVzZXJfaWQiOiI3NzljZmVlYS00NDY1LTQyNzYtOGJlMy00MTAzMTY2MDY4N2QifQ.O9O579R7TTZsjDcdjWGv1A96DVatiSblYMHC6pIRwFk' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Occur own director job century blue.","maxScore":80,"minScore":7,"description":"Congress commercial woman speak camera. Couple item thousand marriage idea carry reach. Produce close health food yourself standard always. Easy remember here loss style.","estimatedTime":"5 weeks","previewFileId":"4f5c6171-ab58-4f66-8445-7232305d0cf5","createdByUserId":"779cfeea-4465-4276-8be3-41031660687d"}'

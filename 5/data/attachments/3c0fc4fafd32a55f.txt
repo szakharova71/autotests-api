@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAyVDEyOjU5OjEyLjA1NzY2NyIsInVzZXJfaWQiOiI3YzkzMGY4Yy1jMDgyLTQ3MmQtOTEzYy02NDJmNzcxYTUwMTUifQ.usBD_iGcPsIJDHH_4e_vlW_g1bsIdAnWnk9dbBWO9b8' \
+  -H 'content-length: 372' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Discussion site represent glass final ground ago.","courseId":"47a0f740-673d-49d5-a9f1-e213842c3b12","maxScore":100,"minScore":16,"orderIndex":91,"description":"Such modern on series bill. Natural pass huge agency defense.\nPrice pressure shoulder eye raise use. Generation she system base. Middle protect everything former into sell.","estimatedTime":"9 weeks"}'

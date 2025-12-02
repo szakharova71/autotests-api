@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAyVDEyOjU5OjA3LjY1NTczNSIsInVzZXJfaWQiOiJkYzhhNTQ4Yy0yOWVjLTQ0NDQtODc3ZS0zMzFmYjFiNzFlY2IifQ.gHQas2alo-TQgckGGE-9Xy9KhIG7uv0GYZE96seono0' \
+  -H 'content-length: 419' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Increase suddenly picture impact role.","maxScore":63,"minScore":6,"description":"Base morning peace travel better drug. Seem animal team administration little. Civil adult career indicate arrive follow goal.\nPresent morning my. Chance know whose maintain future meet.","estimatedTime":"7 weeks","previewFileId":"27c81095-d77b-4d3b-a8de-a72802b6a5d0","createdByUserId":"dc8a548c-29ec-4444-877e-331fb1b71ecb"}'
