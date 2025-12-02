@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAyVDEyOjQxOjQ4LjI0MDkzMiIsInVzZXJfaWQiOiIwZWE5MGQwNy1jYjQ3LTRkNzYtYjEyZC03YjdjZGQ5MWE1YmEifQ.fEBlitI-cLWui45YW-nDn-e0qKoeWX7pPVVSUUI2_Lc' \
+  -H 'content-length: 367' \
+  -H 'content-type: application/json' \
+  -d '{"title":"However management item.","courseId":"52e4c403-8b20-497b-ad10-7a5a9841ac93","maxScore":88,"minScore":18,"orderIndex":15,"description":"System in name other tonight expect ago. Spend language determine subject.\nMost practice memory year later yard.\nGrow design appear hospital population. Bar work reach speak in science worker.","estimatedTime":"3 weeks"}'

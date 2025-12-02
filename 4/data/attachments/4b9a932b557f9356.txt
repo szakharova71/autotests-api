@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAyVDEyOjQxOjQ3LjMyNTkxOCIsInVzZXJfaWQiOiJiNTBiMzMwNi0yMTU0LTQ1OTMtOGZmOS02NzVmMWJjNGFhMTUifQ.Q7CIPrAq8avee33OSuAtHrm3GZef5_4vvdF8DF8nUyU' \
+  -H 'content-length: 361' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Draw more film sense situation tree.","maxScore":71,"minScore":25,"description":"Hand important hit she close professor. Evening hold water attention may push. Simple decision hair local bag light him including.","estimatedTime":"1 weeks","previewFileId":"6eef4802-9245-4d83-9087-585ade9adb5a","createdByUserId":"b50b3306-2154-4593-8ff9-675f1bc4aa15"}'

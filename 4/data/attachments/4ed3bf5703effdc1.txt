@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAyVDEyOjQxOjQ3LjA1MjczNSIsInVzZXJfaWQiOiIwYWEyMTNkMy1lZmY2LTQzYWUtODU3ZS03MjFjMThiM2RhNDAifQ.h5Af3cUEolHt6coC3JHc473UJU3fZ7VqDBXOosZiVd0' \
+  -H 'content-length: 417' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Age soldier avoid his own.","maxScore":57,"minScore":20,"description":"Memory back apply exactly even TV nearly. Crime make writer wide body little. Just mother describe evidence might.\nRock day something challenge paper. Throughout trouble power later list protect.","estimatedTime":"7 weeks","previewFileId":"8340e728-6b30-432e-9ca3-3af02f203397","createdByUserId":"0aa213d3-eff6-43ae-857e-721c18b3da40"}'

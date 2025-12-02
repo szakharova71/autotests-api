@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAyVDEyOjQxOjQ4LjI0MDkzMiIsInVzZXJfaWQiOiIwZWE5MGQwNy1jYjQ3LTRkNzYtYjEyZC03YjdjZGQ5MWE1YmEifQ.fEBlitI-cLWui45YW-nDn-e0qKoeWX7pPVVSUUI2_Lc' \
+  -H 'content-length: 369' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Whole day chance everyone.","maxScore":50,"minScore":9,"description":"Indicate seven close. Miss member cut. Field nor country house argue right.\nCharacter lay great offer agreement push space if. Thing expert surface.","estimatedTime":"6 weeks","previewFileId":"93a83ea2-b294-4038-b6c7-af6252c8b60d","createdByUserId":"0ea90d07-cb47-4d76-b12d-7b7cdd91a5ba"}'

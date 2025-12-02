@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAyVDEyOjQxOjQ1Ljg2NzA0NiIsInVzZXJfaWQiOiIxOWNiZDFkNS1mNjY3LTQ4YmMtYjkyNi05NjI5NGE2NDhkNzYifQ.43apPlOnfOVcme8lvtzkaN9On_l3aj4L6XwzqDeF-Ds' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Choice group nor stand eight.","maxScore":60,"minScore":26,"description":"Bad expect maybe than. Get together natural whole owner.\nStatement behind PM message practice degree church figure. According surface site maybe.","estimatedTime":"1 weeks","previewFileId":"8c36311c-68c7-40b9-a1b0-85d5bf9b452e","createdByUserId":"19cbd1d5-f667-48bc-b926-96294a648d76"}'

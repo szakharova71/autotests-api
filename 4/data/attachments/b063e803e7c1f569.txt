@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAyVDEyOjQxOjQ2LjEzOTcwNSIsInVzZXJfaWQiOiIwYmJhYTQzZC01NzZmLTQ1YzAtOWNkNC1lYWVhZDkzMTZkZGIifQ.j-kS-HpIhnVzWMBWiWvn21MLOV2Z-Vu0ZXGYypWbgJ4' \
+  -H 'content-length: 378' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Interesting name population need stand.","maxScore":72,"minScore":26,"description":"Entire Mrs pressure yes. Statement house always sure Mrs.\nOf listen dog only single life artist. According set wide this put dream media watch.","estimatedTime":"1 weeks","previewFileId":"8cb28f21-a251-4d78-bcf0-d4fb76a5308f","createdByUserId":"0bbaa43d-576f-45c0-9cd4-eaead9316ddb"}'

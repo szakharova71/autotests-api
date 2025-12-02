@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAyVDEyOjQxOjQ3LjMyNTkxOCIsInVzZXJfaWQiOiJiNTBiMzMwNi0yMTU0LTQ1OTMtOGZmOS02NzVmMWJjNGFhMTUifQ.Q7CIPrAq8avee33OSuAtHrm3GZef5_4vvdF8DF8nUyU' \
+  -H 'content-length: 310' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Third during step small.","courseId":"1d25273b-572e-43aa-90db-9f6b2767cc0e","maxScore":78,"minScore":21,"orderIndex":29,"description":"Adult test including majority environment pressure. Authority simple position guy consumer leader.\nTrade month card age message thought.","estimatedTime":"2 weeks"}'

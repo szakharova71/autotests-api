@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAyVDEyOjQxOjQ0LjczMDg1NyIsInVzZXJfaWQiOiIzZGFmYzAzZi0zNjE1LTQ5MDgtODM5MC04ZDY1YjdkYmM5MGMifQ.KcuHrHlREhcKLFBFtPbKtXiGbckcZ1tXoS7YFx45mkY' \
+  -H 'content-length: 432' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Use public which capital close produce small ground.","maxScore":59,"minScore":5,"description":"Born behavior sort leg you light minute. Interview occur to stand and left together a. Late ago rich nothing west condition side.\nMost without under TV include. Carry debate stage type.","estimatedTime":"3 weeks","previewFileId":"b64ff3ee-4b01-4ae9-9c97-fb01c19397a5","createdByUserId":"3dafc03f-3615-4908-8390-8d65b7dbc90c"}'

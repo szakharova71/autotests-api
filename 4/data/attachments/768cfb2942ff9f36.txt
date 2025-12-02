@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAyVDEyOjQxOjQ5LjQzNTcyNyIsInVzZXJfaWQiOiJjZmFiMDk0ZS01YmU3LTRiNGUtOTIzMy1mMzk5YmJlNTg0ODUifQ.Jrxlr21btERCJXryThscLNyVwXWHS4rbKcaxhNJeuRQ' \
+  -H 'content-length: 387' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Friend born partner early you citizen.","maxScore":96,"minScore":2,"description":"Debate series somebody moment group but some. Teacher partner happen however about stuff animal rich. Performance present son brother tonight factor table.","estimatedTime":"6 weeks","previewFileId":"4980502e-2a03-4943-801b-c8bd7b06ec37","createdByUserId":"cfab094e-5be7-4b4e-9233-f399bbe58485"}'
