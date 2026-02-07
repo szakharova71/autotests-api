@@ -1,0 +1,20 @@
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:85 Check create course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Free but order.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 76
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 28
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Two candidate read everything. Environment many start.
+Director break scientist.
+Stuff simply check account toward. Return million simply boy result short minute mission.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 6 weeks
+INFO     BASE_ASSERTIONS:base.py:36 Check that "preview_file_id" equals to 28416a22-cd80-4976-b72c-a6456cf2be42
+INFO     BASE_ASSERTIONS:base.py:36 Check that "created_by_user_id" equals to 3788ee5c-165f-4116-b098-83a595f84715
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

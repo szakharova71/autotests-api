@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE5OjA0OjUyLjk3MTQ4OSIsInVzZXJfaWQiOiI2NGYwOTA5NC0wZDljLTQ4MTQtYTRmNi01YTJjZmYwYWU5NGUifQ.lITupLUUNHCFodkg1jnZLK6ONjC1qjSkmN_ReQ7zaJ4' \
+  -H 'content-length: 410' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Specific provide third now story lose method camera.","maxScore":51,"minScore":20,"description":"Father owner seek reduce realize. Expert rise represent writer.\nLot message set security level reveal. Nice yet open trade laugh. Born million receive state fact.","estimatedTime":"3 weeks","previewFileId":"004401c4-ab8e-4525-97a1-31cc81aea292","createdByUserId":"64f09094-0d9c-4814-a4f6-5a2cff0ae94e"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE5OjA0OjQ5LjIxOTg4NyIsInVzZXJfaWQiOiI4ZDJmNzA3MS02MWY5LTRkNWYtOTIyMS0zZjNiZDU3YTVhM2IifQ.hUWzIakUXzpCrxa8F2OECCmeTDsoJTOmafNPpzxOS5I' \
+  -H 'content-length: 412' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Rule everyone plant air check employee deal.","maxScore":54,"minScore":27,"description":"Argue ready reach thing share. Start entire environment deal. Even education edge.\nPolice consider surface bed data data. Institution ago wish. Blood write room discussion.","estimatedTime":"1 weeks","previewFileId":"d4b426fa-5003-47be-9da4-eaa3b6da58df","createdByUserId":"8d2f7071-61f9-4d5f-9221-3f3bd57a5a3b"}'

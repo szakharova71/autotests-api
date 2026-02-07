@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE5OjA0OjUxLjc5ODAwOSIsInVzZXJfaWQiOiJmZGI5NDdkZS1mZWMyLTQ3MzItYWMyYi00Y2MwYTVhMTM5YTEifQ.9PsyJEvV4V4oej9nI_3oroGk_Ox9VskIBy3nN7Nl_KE' \
+  -H 'content-length: 375' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Pattern measure report today story hundred.","courseId":"e6f900d1-90ff-4b63-8ddb-eca3694b65f0","maxScore":82,"minScore":19,"orderIndex":94,"description":"Special plan some manager common know. Authority purpose go.\nReal shoulder turn there series. Happy college lot red billion herself. Situation since person stay fire day back inside.","estimatedTime":"2 weeks"}'

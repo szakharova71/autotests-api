@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE5OjA0OjUwLjM1MzE3MSIsInVzZXJfaWQiOiIyNDYxMjI4OS1lOWU4LTQ4MGUtYjQyNS1kZTFhOWM4YjFlZjMifQ.hAfTJ6ssQLuB4yiQ1Iefr2oy-HclamX8_HRS5AairpY' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Purpose even nor knowledge conference analysis push political.","maxScore":76,"minScore":24,"description":"Age during remember attack box leader young. Discuss view good central they.\nCompany pull almost expect clearly.","estimatedTime":"8 weeks","previewFileId":"8fa3b9da-63fb-446e-b0e9-7b9fbd74a2b6","createdByUserId":"24612289-e9e8-480e-b425-de1a9c8b1ef3"}'

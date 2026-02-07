@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/c6a21322-668b-4aa4-a9ac-be82f064468c' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE5OjA0OjUwLjM1MzE3MSIsInVzZXJfaWQiOiIyNDYxMjI4OS1lOWU4LTQ4MGUtYjQyNS1kZTFhOWM4YjFlZjMifQ.hAfTJ6ssQLuB4yiQ1Iefr2oy-HclamX8_HRS5AairpY' \
+  -H 'content-length: 185' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Style space human source question.","maxScore":76,"minScore":12,"description":"Rest never offer bit. Peace father my investment wait building use.","estimatedTime":"10 weeks"}'

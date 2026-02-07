@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE5OjA0OjUxLjUyNjU0MSIsInVzZXJfaWQiOiI5MWJiMDdmNC0xNDdhLTRmZWEtYjFhYi1jODlhZjM5ZmNjZmMifQ.KLYwn_LtuLWdOmn2aK88Np55hlJzLBiAAZURL1xVSfw' \
+  -H 'content-length: 373' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Skin current number direction son employee arrive.","courseId":"fef73ec9-06ff-4dea-9670-05b19c483ee0","maxScore":65,"minScore":23,"orderIndex":43,"description":"Attention blood glass model. Raise happen until hospital. Knowledge difficult oil amount treat.\nDog while fish hotel fall realize. Save charge traditional mention staff can.","estimatedTime":"5 weeks"}'

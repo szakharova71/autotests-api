@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE5OjA0OjUwLjYyNjgxNCIsInVzZXJfaWQiOiIzNzg4ZWU1Yy0xNjVmLTQxMTYtYjA5OC04M2E1OTVmODQ3MTUifQ.YuXoWP_2aOJG_iaQErEtG7OV-kGgVkUf7WgC6Kjxs3M' \
+  -H 'content-length: 382' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Free but order.","maxScore":76,"minScore":28,"description":"Two candidate read everything. Environment many start.\nDirector break scientist.\nStuff simply check account toward. Return million simply boy result short minute mission.","estimatedTime":"6 weeks","previewFileId":"28416a22-cd80-4976-b72c-a6456cf2be42","createdByUserId":"3788ee5c-165f-4116-b098-83a595f84715"}'

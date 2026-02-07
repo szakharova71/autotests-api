@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE5OjA0OjUyLjY5ODY4OSIsInVzZXJfaWQiOiI0ZGM0YjVlYi00ODcyLTQyMGMtYjNhOS1lYWI3MGFmZDFhMzEifQ.TdsGSnYCvySAaSXXjigi6P4t_fdDtwEnrzz1kQoZ9TA' \
+  -H 'content-length: 410' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Back job store blue consumer hit.","maxScore":61,"minScore":7,"description":"Think certain rest clearly. Statement president arm pattern support value parent. Feel conference different nature long I avoid.\nThrow partner simple. Minute foot radio drive finish.","estimatedTime":"4 weeks","previewFileId":"0150cbdb-c0a1-424f-adf6-e0b5db4900b0","createdByUserId":"4dc4b5eb-4872-420c-b3a9-eab70afd1a31"}'

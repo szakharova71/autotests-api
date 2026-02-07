@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE5OjA0OjUzLjg3MTYwMCIsInVzZXJfaWQiOiI5NzdjZjdmNS0yMWI4LTQ2NTYtYWJlMy1iZWE1YmMxMzBlMDkifQ.6BCcQXjPZZV0yzJpeWUpT4RATmSsTeAxWjO4fqO7uvY' \
+  -H 'content-length: 372' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Business with opportunity appear.","courseId":"51cb3552-10c6-4b46-883f-d58c4d72fb64","maxScore":64,"minScore":5,"orderIndex":32,"description":"Common full surface second school. Suggest himself size.\nDesign say run firm. Part painting pull serious cause. Foot left believe grow bit decision seven very. Doctor institution PM spring.","estimatedTime":"10 weeks"}'
