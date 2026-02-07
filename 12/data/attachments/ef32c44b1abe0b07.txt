@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:31 Make GET request to http://localhost:8000/api/v1/exercises?courseId=40c2dc43-7260-4748-a7a8-0d3b6af86931
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=40c2dc43-7260-4748-a7a8-0d3b6af86931
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:112 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:69 Check that length of "exercises" equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:43 Check exercise
+INFO     BASE_ASSERTIONS:base.py:36 Check that "id" equals to e829d52f-26a8-4b8f-802b-adaece7eec7d
+INFO     BASE_ASSERTIONS:base.py:36 Check that "course_id" equals to 40c2dc43-7260-4748-a7a8-0d3b6af86931
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 96
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 8
+INFO     BASE_ASSERTIONS:base.py:36 Check that "order_index" equals to 64
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Fight figure development two notice. Population technology voice land mind.
+Music personal free face. Including wear capital. Election most wait determine.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 5 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

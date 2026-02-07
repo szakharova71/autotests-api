@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE5OjA5OjI2LjIzOTYzNCIsInVzZXJfaWQiOiIzOWFiMWRhYy1iMDA2LTQ4NzktYTY5OS02MjY4NzVkN2Q3MWEifQ.ZlmOAQ-YmKbfVb1jT9UXQfjRHi76Hk-17QDRbuZmsjo' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Foot serious man.","maxScore":72,"minScore":11,"description":"Analysis against development half. Ever this red little perform wrong. Develop throw model night.\nLaw approach quite long. Security husband nothing structure.","estimatedTime":"8 weeks","previewFileId":"c5388796-82df-4f09-927c-31223103f4bd","createdByUserId":"39ab1dac-b006-4879-a699-626875d7d71a"}'

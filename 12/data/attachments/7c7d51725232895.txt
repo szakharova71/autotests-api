@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:85 Check create course response
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Three table resource respond law.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 68
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 21
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Quite writer station such throw because check. Get power moment. Page region smile water agent month avoid.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 1 weeks
+INFO     BASE_ASSERTIONS:base.py:36 Check that "preview_file_id" equals to 673b4a56-4213-434b-bb31-71a166663126
+INFO     BASE_ASSERTIONS:base.py:36 Check that "created_by_user_id" equals to f495232f-877c-4c41-b22d-d29b5aa96b35
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

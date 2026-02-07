@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE5OjA5OjIzLjg1NTc5MyIsInVzZXJfaWQiOiJmNDk1MjMyZi04NzdjLTRjNDEtYjIyZC1kMjliNWFhOTZiMzUifQ.cM1paFF_0VXZSRUcrNfv24P1_aMfM5Yv621f18dszTM' \
+  -H 'content-length: 335' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Three table resource respond law.","maxScore":68,"minScore":21,"description":"Quite writer station such throw because check. Get power moment. Page region smile water agent month avoid.","estimatedTime":"1 weeks","previewFileId":"673b4a56-4213-434b-bb31-71a166663126","createdByUserId":"f495232f-877c-4c41-b22d-d29b5aa96b35"}'

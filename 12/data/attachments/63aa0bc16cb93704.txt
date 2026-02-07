@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE5OjA5OjI2LjgyNTQ0MyIsInVzZXJfaWQiOiJmMDUzYTM5My1hYzkwLTQxZjYtYWVkNS0zMDYzZTU1M2YwOGMifQ.2v4A76qFe62vTRPahRRfzy1yOJNhJuwgEXX6FDjnMhg' \
+  -H 'content-length: 422' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Air conference purpose minute travel.","maxScore":98,"minScore":1,"description":"Food season difficult professional campaign left. Mind seek many challenge once these.\nBag thank throughout dream during pattern. Peace act present.\nOfficial rule eat prove provide trouble.","estimatedTime":"2 weeks","previewFileId":"55d7d9e2-5ea2-4171-9db9-a032ca8e88cf","createdByUserId":"f053a393-ac90-41f6-aed5-3063e553f08c"}'

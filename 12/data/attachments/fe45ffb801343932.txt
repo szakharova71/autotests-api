@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE5OjA5OjI1LjYwNDAzOCIsInVzZXJfaWQiOiIyNDBjZDUwOS0xZWY0LTQ1M2ItOGEzMC05M2M0MzUxYzRkMTMifQ.KR0P9HDzszaurv5lH6yhJ6frb7LSH9WXjA3SK50Bhzk' \
+  -H 'content-length: 316' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Cup nor great forget great memory yard.","maxScore":68,"minScore":17,"description":"Seven wife money some. Kid yes civil deep ten owner many. Language despite degree.","estimatedTime":"4 weeks","previewFileId":"f90ce84e-dd71-424f-8f47-b4df86aad240","createdByUserId":"240cd509-1ef4-453b-8a30-93c4351c4d13"}'

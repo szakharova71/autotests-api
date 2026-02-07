@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE5OjA5OjIzLjI2NDA1NSIsInVzZXJfaWQiOiI5MDYxMTdjZS1hNzBkLTQ0ZGYtOWYwMS04OWMwZWM4NzY1MGYifQ.O9P_a0nmA1vlbQVspjqtH9VJ6N8Sjb46g867TNySdnQ' \
+  -H 'content-length: 330' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Real reduce arm free dinner.","maxScore":72,"minScore":21,"description":"Thus kid but answer very face city. Add large past attack message. Street collection standard house really.","estimatedTime":"4 weeks","previewFileId":"f211d4cf-1d1d-4738-a84b-4899d4a1d060","createdByUserId":"906117ce-a70d-44df-9f01-89c0ec87650f"}'

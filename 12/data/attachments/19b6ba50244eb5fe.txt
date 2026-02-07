@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE5OjA5OjI1LjAyNjYzOSIsInVzZXJfaWQiOiIyYTZiMTcxMS1lYjEyLTRjYzctYmE1NS05YTE1MjY4ODMwYWYifQ.WN5xJsIh-b6e2pSvwgIeIz1IGQg0_re3UDRAvGQTB0I' \
+  -H 'content-length: 251' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Rest standard home.","courseId":"d788c4ef-2ee8-4dd2-81f1-aee11095a388","maxScore":78,"minScore":11,"orderIndex":73,"description":"Ground factor far very offer.\nLikely national person should. Hard attack economic.","estimatedTime":"6 weeks"}'
