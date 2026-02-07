@@ -72,7 +72,7 @@ jobs:
           swagger-coverage-tool save-report
 
       # 10. Сохраняем историю обратно в кеш
-      - name: Cache Coverage  history
+      - name: Cache Coverage history
         if: always()
         uses: actions/cache/save@v4
         with:
