@@ -71,7 +71,7 @@ class ExercisesClient(APIClient):
         Метод удаления задания.
 
         :param exercise_id: Идентификатор задания.
-        :return: Ответ от сервера в виде объекта httpx.Response test
+        :return: Ответ от сервера в виде объекта httpx.Response
         """
         # Вместо /api/v1/exercises используем APIRoutes.EXERCISES
         return self.delete(f"{APIRoutes.EXERCISES}/{exercise_id}")
