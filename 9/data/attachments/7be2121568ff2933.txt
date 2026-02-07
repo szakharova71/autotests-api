@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE4OjU3OjA3LjE5Nzk2NSIsInVzZXJfaWQiOiJkMWIxZTBkZi03YjhiLTRjZjktYTFkMi0wMTIxMWY1MTI2YzEifQ.Ft9I0uugtuWQDKsgE8W4wJ9Hro1RRdi38gATRQYObNI' \
+  -H 'content-length: 360' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Tell field play start over.","maxScore":54,"minScore":29,"description":"Husband natural low according. Without onto pay the bag player.\nStatement church rise him that. Prevent keep story city sister expert TV.","estimatedTime":"7 weeks","previewFileId":"ba638607-32d3-42b4-bca4-400b6cd6aade","createdByUserId":"d1b1e0df-7b8b-4cf9-a1d2-01211f5126c1"}'

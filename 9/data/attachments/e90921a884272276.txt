@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE4OjU3OjA2LjI4NDQxNCIsInVzZXJfaWQiOiIyOWMyODVlYS1mZmM2LTQ1MzktOGI4Ni1jZjExMTQ2MDA2ZmMifQ.4aW8UdZA8-Pf3armXDClTHga1oEQIXl9Iwn2KZzhuHI' \
+  -H 'content-length: 395' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Foot talk forward discuss.","maxScore":73,"minScore":21,"description":"Draw determine create future challenge per.\nVote doctor act all religious plant. May tax billion. Eight song side able participant our.\nShort deal again difference help he.","estimatedTime":"7 weeks","previewFileId":"da50287f-7952-470b-ab2b-174ebf60a8c2","createdByUserId":"29c285ea-ffc6-4539-8b86-cf11146006fc"}'

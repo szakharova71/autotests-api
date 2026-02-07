@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE4OjU3OjA0Ljg3NDMwNSIsInVzZXJfaWQiOiIxMzMxNGRmZS0yMzY5LTQ0NzUtYmMxMi0xMGRkMDViNzAyMzEifQ.0RkM2v3bCRz3tg1Jeq3uDtzl3mgFavy_bBCaUJCs-5c' \
+  -H 'content-length: 405' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Like small keep success government.","maxScore":93,"minScore":3,"description":"So loss face American technology. Let today behind firm. Through study study chance.\nTime probably fear method carry. Play include capital himself. Deep hundred notice appear.","estimatedTime":"8 weeks","previewFileId":"f869c539-f20e-45b8-a8d2-c7a11ac2f591","createdByUserId":"13314dfe-2369-4475-bc12-10dd05b70231"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE4OjU3OjA5LjU2Mzc1OSIsInVzZXJfaWQiOiJmYjMxYTc0MS04ZjFiLTQ5ZTktOWU0ZC1hMzEyZGNiY2YwNjIifQ.4xNCdHhSlsp-4QZlLdQghaUxdQ4TkF50vnoLINXgk20' \
+  -H 'content-length: 434' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Later future cup far win model movement.","maxScore":63,"minScore":6,"description":"Condition our section image pattern. Whether audience expect help religious future scene.\nAnd which why rich then news fight chance. Step push face but reflect trouble build. Family fact now foreign.","estimatedTime":"4 weeks","previewFileId":"12df3308-6610-47c0-8331-1f56ebe3e992","createdByUserId":"fb31a741-8f1b-49e9-9e4d-a312dcbcf062"}'

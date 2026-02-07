@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE4OjU3OjA4LjY1Nzg4NCIsInVzZXJfaWQiOiJlMWM1ZGY4OC0xNWEwLTRjYjQtOWM5ZC05YzgwNDY5ZjI2ODAifQ.R1pJHXy5MMMHP_QGwT8nGpONcVZPPMLd0-bktz50nto' \
+  -H 'content-length: 332' \
+  -H 'content-type: application/json' \
+  -d '{"title":"All note back guy thought feel also shake.","maxScore":96,"minScore":25,"description":"Use science culture event road experience blood. Unit talk customer politics board trade story.","estimatedTime":"5 weeks","previewFileId":"2a7c317b-f478-46dc-a577-087880bdd5d1","createdByUserId":"e1c5df88-15a0-4cb4-9c9d-9c80469f2680"}'

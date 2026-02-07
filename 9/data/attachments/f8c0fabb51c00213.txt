@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE4OjU3OjA2LjAxMTQ0MiIsInVzZXJfaWQiOiI0OWViZTVhOC04OTFlLTRlZmQtOGMyOC00YzYwOTJmNTFmNzMifQ.NZEECdqcm8ZKw6slcfnwoolB9uGL01sclxo-YcOQlsE' \
+  -H 'content-length: 356' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Each voice final five.","maxScore":69,"minScore":20,"description":"Minute military action about everyone expect mission. Else my structure social financial alone drive. Address very occur knowledge college.","estimatedTime":"7 weeks","previewFileId":"264171c8-bbb0-40f3-9f5c-25c47933b506","createdByUserId":"49ebe5a8-891e-4efd-8c28-4c6092f51f73"}'

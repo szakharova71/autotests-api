@@ -1,0 +1,34 @@
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     SWAGGER_COVERAGE_TRACKER_STORAGE:storage.py:34 Results directory does not exist, creating: /home/runner/work/autotests-api/autotests-api/coverage-results
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:31 Make GET request to http://localhost:8000/api/v1/courses?userId=13314dfe-2369-4475-bc12-10dd05b70231
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses?userId=13314dfe-2369-4475-bc12-10dd05b70231
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:68 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:69 Check that length of "courses" equals to 1
+INFO     COURSES_ASSERTIONS:courses.py:43 Check course
+INFO     BASE_ASSERTIONS:base.py:36 Check that "id" equals to fc6acfec-51a7-47f0-8a95-75d50107b0d0
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Like small keep success government.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 93
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 3
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to So loss face American technology. Let today behind firm. Through study study chance.
+Time probably fear method carry. Play include capital himself. Deep hundred notice appear.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 8 weeks
+INFO     FILES_ASSERTIONS:files.py:43 Check file
+INFO     BASE_ASSERTIONS:base.py:36 Check that "id" equals to f869c539-f20e-45b8-a8d2-c7a11ac2f591
+INFO     BASE_ASSERTIONS:base.py:36 Check that "url" equals to http://localhost:8000/static/tests/a863ca88-16ee-4364-95c1-0dfc35b06510.png
+INFO     BASE_ASSERTIONS:base.py:36 Check that "filename" equals to a863ca88-16ee-4364-95c1-0dfc35b06510.png
+INFO     BASE_ASSERTIONS:base.py:36 Check that "directory" equals to tests
+INFO     USERS_ASSERTIONS:users.py:37 Check user
+INFO     BASE_ASSERTIONS:base.py:36 Check that "id" equals to 13314dfe-2369-4475-bc12-10dd05b70231
+INFO     BASE_ASSERTIONS:base.py:36 Check that "email" equals to wwilliams@example.org
+INFO     BASE_ASSERTIONS:base.py:36 Check that "first_name" equals to Katelyn
+INFO     BASE_ASSERTIONS:base.py:36 Check that "last_name" equals to Horn
+INFO     BASE_ASSERTIONS:base.py:36 Check that "middle_name" equals to Charles
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

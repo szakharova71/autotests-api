@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE4OjU3OjA4LjM4Mzc1MyIsInVzZXJfaWQiOiI1MjNiZGU2Yi0wMmM4LTRhOWQtODM1ZC1jMWM1NmE5MDg0NzQifQ.FnqNqd9WjPsrqcOFxcKfoa0b8Cer9Y2kqsWQQIVBOyg' \
+  -H 'content-length: 407' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Environment loss cause door pretty time.","maxScore":70,"minScore":27,"description":"Or foreign run life vote. Operation point move series guy.\nBit skin else television. Nor sign heavy know age pretty. Response mother part citizen method paper near tough.","estimatedTime":"10 weeks","previewFileId":"3e0fcf70-9781-4062-8d36-1e134b6a7886","createdByUserId":"523bde6b-02c8-4a9d-835d-c1c56a908474"}'

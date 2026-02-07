@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/9b632b24-b988-49cb-b94e-cc1d31ea2041' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE4OjU3OjA3LjQ3MjM2NyIsInVzZXJfaWQiOiJjNzFiNjkwYi05NjZiLTQ2NzItOWU2MC04NjgyMzNjNDRlZDAifQ.JTwI8IGDh6qmRMUilfEscj0UEuDqmBdT_oFH3AF_ayI' \
+  -H 'content-length: 250' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Whole collection investment dog discuss side.","maxScore":68,"minScore":6,"orderIndex":16,"description":"Political within week hold. East of performance shake walk. Activity exactly produce investment do senior.","estimatedTime":"10 weeks"}'

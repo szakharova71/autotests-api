@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE4OjU3OjA3LjQ3MjM2NyIsInVzZXJfaWQiOiJjNzFiNjkwYi05NjZiLTQ2NzItOWU2MC04NjgyMzNjNDRlZDAifQ.JTwI8IGDh6qmRMUilfEscj0UEuDqmBdT_oFH3AF_ayI' \
+  -H 'content-length: 320' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Gun box behavior group focus finally yes.","maxScore":84,"minScore":28,"description":"Month chance difference seem executive defense section. Success of fire serve none.","estimatedTime":"10 weeks","previewFileId":"0fd495c8-f86f-4af9-91d4-d27d44f52e4a","createdByUserId":"c71b690b-966b-4672-9e60-868233c44ed0"}'
