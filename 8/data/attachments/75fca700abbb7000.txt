@@ -1,0 +1,35 @@
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     SWAGGER_COVERAGE_TRACKER_STORAGE:storage.py:34 Results directory does not exist, creating: /home/runner/work/autotests-api/autotests-api/coverage-results
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:31 Make GET request to http://localhost:8000/api/v1/courses?userId=505e9b66-efb7-42ba-aca0-084b5db0b56c
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses?userId=505e9b66-efb7-42ba-aca0-084b5db0b56c
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:68 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:69 Check that length of "courses" equals to 1
+INFO     COURSES_ASSERTIONS:courses.py:43 Check course
+INFO     BASE_ASSERTIONS:base.py:36 Check that "id" equals to 221052fb-3b80-4e3c-9d91-dd37bf5b1859
+INFO     BASE_ASSERTIONS:base.py:36 Check that "title" equals to Painting occur knowledge center any agreement successful green.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 77
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 7
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Many top small buy up hit break. Reveal strong call hundred.
+Military skin rule region people police.
+Baby nothing business itself board. Development air radio government become.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 8 weeks
+INFO     FILES_ASSERTIONS:files.py:43 Check file
+INFO     BASE_ASSERTIONS:base.py:36 Check that "id" equals to 512196f1-eaa3-4a06-87b4-a2b1890415d8
+INFO     BASE_ASSERTIONS:base.py:36 Check that "url" equals to http://localhost:8000/static/tests/6ccb6843-7554-4e00-93e8-c675743351e8.png
+INFO     BASE_ASSERTIONS:base.py:36 Check that "filename" equals to 6ccb6843-7554-4e00-93e8-c675743351e8.png
+INFO     BASE_ASSERTIONS:base.py:36 Check that "directory" equals to tests
+INFO     USERS_ASSERTIONS:users.py:37 Check user
+INFO     BASE_ASSERTIONS:base.py:36 Check that "id" equals to 505e9b66-efb7-42ba-aca0-084b5db0b56c
+INFO     BASE_ASSERTIONS:base.py:36 Check that "email" equals to pmartinez@example.com
+INFO     BASE_ASSERTIONS:base.py:36 Check that "first_name" equals to Timothy
+INFO     BASE_ASSERTIONS:base.py:36 Check that "last_name" equals to Mayo
+INFO     BASE_ASSERTIONS:base.py:36 Check that "middle_name" equals to Benjamin
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

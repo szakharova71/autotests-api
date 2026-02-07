@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE4OjU0OjEwLjA5OTU3OSIsInVzZXJfaWQiOiJmMjM3MjVmNC1kNjBkLTQ3OGEtYTQ3OC0xNDkyMDc5NGEwYzQifQ.jqC2niWcvToM7EcQKFSs8-lcbO0xrfLefi6DfrfkeP4' \
+  -H 'content-length: 348' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Pass indeed note partner drug.","maxScore":77,"minScore":4,"description":"Ten discuss community network skill ask step. Trouble born environmental them. Sound interview maintain sometimes continue.","estimatedTime":"10 weeks","previewFileId":"d3ddcd31-db69-4168-9d87-f515f7617751","createdByUserId":"f23725f4-d60d-478a-a478-14920794a0c4"}'

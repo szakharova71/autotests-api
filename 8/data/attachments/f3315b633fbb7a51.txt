@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE4OjU0OjExLjAwNTEyNiIsInVzZXJfaWQiOiIyMDczY2M1MC04NmExLTQ1ZmMtODI5ZS0wODI0NDEyYWNiZTkifQ.OdeOUVUOyCkqpnTsmBpld8HJgLTkPLzPyhn9ZYCDPbQ' \
+  -H 'content-length: 358' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Poor including bar.","courseId":"b28c2717-329c-4703-8da0-dabc7a616906","maxScore":68,"minScore":7,"orderIndex":58,"description":"Father economic herself painting with exist oil.\nAction week upon good fund small. Discover teacher medical report.\nGun then health. Election anything sport. Cut alone partner else himself.","estimatedTime":"4 weeks"}'

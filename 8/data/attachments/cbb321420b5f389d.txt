@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE4OjU0OjA3LjczMTE0NiIsInVzZXJfaWQiOiI1MzY0NzAzNi01NWRkLTQ3ZjktYWM2Ni0wMDRmNWYzMTRmNDgifQ.XJqMd9iMkYtmGpGZSpNr_7v5r2WdwWXXW8lnzN2rQ98' \
+  -H 'content-length: 345' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Positive certainly learn and specific remain indicate story.","maxScore":57,"minScore":23,"description":"Strong wonder girl himself product finally wonder pass. Story later seat reflect trouble.","estimatedTime":"10 weeks","previewFileId":"2b8fda68-48a6-4a0a-8d35-f4a634ecdca4","createdByUserId":"53647036-55dd-47f9-ac66-004f5f314f48"}'

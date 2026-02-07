@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE4OjU0OjA3LjQ1ODU3NiIsInVzZXJfaWQiOiJkOGFlODM5Ny1lNWUxLTQ5ZmUtYWZkNS0yNzJiMDYzNjFmODEifQ.m_G2rQeLwW9S_vpP3RVBp3VftuBofy8Pr0lZjpDqffY' \
+  -H 'content-length: 342' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ok contain major now information shoulder.","maxScore":80,"minScore":28,"description":"Science huge play ahead. Institution culture middle force surface feeling. Meet case scientist hear site.","estimatedTime":"8 weeks","previewFileId":"6c0a2611-c308-46a0-8803-13034c8125ee","createdByUserId":"d8ae8397-e5e1-49fe-afd5-272b06361f81"}'

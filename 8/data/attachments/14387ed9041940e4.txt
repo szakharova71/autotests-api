@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE4OjU0OjA5LjgyNjA0NiIsInVzZXJfaWQiOiJjNDQyNDQzOS05ZjMxLTQyYTMtYTI3NC1iZmVlNGJiMmFhMmEifQ.Bufz_hj6r6ArhhcYLNaAqCpRy8FjPzhExWkEytwshLU' \
+  -H 'content-length: 291' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Improve create listen.","courseId":"70b049bd-3717-4edb-817e-02d8cbd5a6b3","maxScore":63,"minScore":6,"orderIndex":31,"description":"Trial true gun listen scene keep open. Exist party under state speak card in.\nIndeed nice order none open three morning.","estimatedTime":"5 weeks"}'

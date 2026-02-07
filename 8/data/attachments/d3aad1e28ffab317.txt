@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE4OjU0OjA4LjkyNTI3NCIsInVzZXJfaWQiOiI0MjFhOWUzNy01YTFhLTQxZDYtYjZiOC0yNDNkYTkwMGMxMGUifQ.7vDaogwr8OzGhhFpILF3u8Zkf-FEuDR3egprb2KUHOg' \
+  -H 'content-length: 324' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Provide same pass under.","courseId":"a9c46f62-a0a7-473f-974c-cefef541a771","maxScore":60,"minScore":3,"orderIndex":9,"description":"Catch else teacher keep trade young race. Have bill professor. Seem improve push plan simply your those.\nSite leader could window develop structure her.","estimatedTime":"7 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE4OjU0OjA2LjMyMjk5MyIsInVzZXJfaWQiOiI1MDVlOWI2Ni1lZmI3LTQyYmEtYWNhMC0wODRiNWRiMGI1NmMifQ.rFoRU7umpoYniX54V18zDCo3ysZ4X0ZQuhXBMgM4zLc' \
+  -H 'content-length: 437' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Painting occur knowledge center any agreement successful green.","maxScore":77,"minScore":7,"description":"Many top small buy up hit break. Reveal strong call hundred.\nMilitary skin rule region people police.\nBaby nothing business itself board. Development air radio government become.","estimatedTime":"8 weeks","previewFileId":"512196f1-eaa3-4a06-87b4-a2b1890415d8","createdByUserId":"505e9b66-efb7-42ba-aca0-084b5db0b56c"}'

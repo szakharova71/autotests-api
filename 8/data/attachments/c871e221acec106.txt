@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE4OjU0OjA4LjY1MjEzNSIsInVzZXJfaWQiOiI0NWJmYThhYi0wZWM0LTQ5YjktODBiYy0zYjU3Nzg5ZGVjODIifQ.bQxaYePg0xp8EXudXrZZZIMqk3VmCuRnS_LYqhuj9T4' \
+  -H 'content-length: 378' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Center professional set international forward perform old Democrat.","maxScore":92,"minScore":23,"description":"Indeed respond explain join push paper. Prevent two involve future kid hospital. Often administration size top size.","estimatedTime":"1 weeks","previewFileId":"83ca124c-4978-4d40-ba18-85831ec7e2c1","createdByUserId":"45bfa8ab-0ec4-49b9-80bc-3b57789dec82"}'

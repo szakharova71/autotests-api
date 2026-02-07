@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE4OjU0OjExLjAwNTEyNiIsInVzZXJfaWQiOiIyMDczY2M1MC04NmExLTQ1ZmMtODI5ZS0wODI0NDEyYWNiZTkifQ.OdeOUVUOyCkqpnTsmBpld8HJgLTkPLzPyhn9ZYCDPbQ' \
+  -H 'content-length: 329' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Social career assume.","maxScore":100,"minScore":3,"description":"Section reach Mr range rest skill check. End speak message military. Life there anything current decade Mrs time.","estimatedTime":"9 weeks","previewFileId":"4c37ed30-d216-4476-9bb7-aef1f056b93c","createdByUserId":"2073cc50-86a1-45fc-829e-0824412acbe9"}'
