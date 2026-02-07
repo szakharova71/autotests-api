@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/2776cd99-be7e-4d2c-95bd-6733bbb2cb3c' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE5OjA3OjA5Ljc4MzI5NyIsInVzZXJfaWQiOiI1N2ZjZWIxNS0yZjZmLTRjYmMtYjIzNC01NzhkNjQ2MjAxYmIifQ.s9yv8fsZVE9Pzlp9pl8TBzb8L2CG9tyHG8iVBrYec1M' \
+  -H 'content-length: 221' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Life among between allow.","maxScore":60,"minScore":8,"description":"Be think risk under. Career even expert toward by.\nSmile take often impact consumer. Walk goal medical home page.","estimatedTime":"8 weeks"}'

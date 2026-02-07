@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE5OjA3OjExLjU4MjIwNSIsInVzZXJfaWQiOiI3MjY1OTRlYi01NGEwLTRiYTktYTA1Yi02MDBiZjA3OGE1NGQifQ.0El0r2US26yhQM6gPKf-ES0qT6rZv2zm1V2jFd856to' \
+  -H 'content-length: 353' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Business see business heavy such.","maxScore":86,"minScore":20,"description":"State there will create according special. Call career spring nice speak. Resource already five laugh production enjoy share.","estimatedTime":"1 weeks","previewFileId":"8ad50f49-5bfb-4a5b-a763-3ca9d8f7bff2","createdByUserId":"726594eb-54a0-4ba9-a05b-600bf078a54d"}'

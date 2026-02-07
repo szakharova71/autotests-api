@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE5OjA3OjEwLjk5OTE3MSIsInVzZXJfaWQiOiJkZmZjZDRjYy1hMzI3LTQ1MDYtOTIwNy01M2IyMjIwOGUzNjQifQ.gDDNsh_-Yarju4k9f7l5FaUIi3ZxS3bhteQ5gXcyLaU' \
+  -H 'content-length: 425' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Practice either head adult force worry.","maxScore":51,"minScore":2,"description":"Song operation laugh. International establish nation provide good under share. Government process factor senior respond go alone.\nEither result take develop. View best action democratic down.","estimatedTime":"7 weeks","previewFileId":"7b7c99f6-3d59-4f1b-9de6-d2cf48d7879e","createdByUserId":"dffcd4cc-a327-4506-9207-53b22208e364"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE5OjA3OjEyLjI1MjU2MiIsInVzZXJfaWQiOiIxMmFlODJkOC1iZmExLTQyOGEtOGU0Yy00YjUyMWFmY2ZiYWQifQ.3FDvM9bA7EENgVNSnOUvXL7lsL2JDEDQYIe9fHtfgoU' \
+  -H 'content-length: 299' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Film make outside serve dog tend defense.","courseId":"0c4d74e2-18c5-4c38-a4d0-c905c09f3b4a","maxScore":71,"minScore":6,"orderIndex":54,"description":"Financial strong cost long past. Yourself art model resource smile worry. Important card daughter traditional.","estimatedTime":"9 weeks"}'

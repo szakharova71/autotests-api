@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE5OjA3OjEyLjI1MjU2MiIsInVzZXJfaWQiOiIxMmFlODJkOC1iZmExLTQyOGEtOGU0Yy00YjUyMWFmY2ZiYWQifQ.3FDvM9bA7EENgVNSnOUvXL7lsL2JDEDQYIe9fHtfgoU' \
+  -H 'content-length: 399' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Property some challenge defense where magazine.","maxScore":52,"minScore":17,"description":"Lay away laugh difficult family a. Raise toward indeed size. Create network reduce us continue.\nMay use brother middle. Morning service strategy staff keep.","estimatedTime":"3 weeks","previewFileId":"d793f13d-e38e-4d41-be74-bb4c5cd28501","createdByUserId":"12ae82d8-bfa1-428a-8e4c-4b521afcfbad"}'

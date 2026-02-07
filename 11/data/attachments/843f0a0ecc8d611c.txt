@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE5OjA3OjA5Ljc4MzI5NyIsInVzZXJfaWQiOiI1N2ZjZWIxNS0yZjZmLTRjYmMtYjIzNC01NzhkNjQ2MjAxYmIifQ.s9yv8fsZVE9Pzlp9pl8TBzb8L2CG9tyHG8iVBrYec1M' \
+  -H 'content-length: 428' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Property sing create phone stay manager.","maxScore":83,"minScore":17,"description":"Although help across. Hour field figure rate husband reason. Consider bag situation maybe public whom safe.\nNight during character public challenge read. Hot early design majority writer next.","estimatedTime":"7 weeks","previewFileId":"a42258c3-fcbb-45d8-97da-3819db8914e1","createdByUserId":"57fceb15-2f6f-4cbc-b234-578d646201bb"}'

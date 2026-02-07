@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE5OjA3OjEyLjg0MzAwMyIsInVzZXJfaWQiOiJjNzkyNzQ3My1mNGI0LTQ3NTEtYjYzMi1mYmUwNTM1Y2RmN2EifQ.DP75IGh4JgH2J0IJ2tyijkdypERRYEwzvOh0h6h_C2o' \
+  -H 'content-length: 401' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Region raise sign think.","maxScore":70,"minScore":8,"description":"Argue fall administration image leader reality represent. Add until hotel item himself local character want. Model to say nature. Miss create meeting suffer ago learn customer dinner.","estimatedTime":"4 weeks","previewFileId":"6c220b9e-3adb-43a5-b7e8-b1a9fff8945a","createdByUserId":"c7927473-f4b4-4751-b632-fbe0535cdf7a"}'

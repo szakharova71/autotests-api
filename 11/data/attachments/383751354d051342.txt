@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE5OjA3OjEzLjQ4MjI2MyIsInVzZXJfaWQiOiIxZDkxZDZlOC05MDE1LTRiZjktYmEzNS0zMGI4MmYzZTE3ODcifQ.sFFBGQ1BE5bFBEC0k1H0cmY3apUhmOzmwAg3JnAs6qA' \
+  -H 'content-length: 335' \
+  -H 'content-type: application/json' \
+  -d '{"title":"By TV meeting first.","maxScore":62,"minScore":21,"description":"Participant report lead cut weight attack can. As summer must realize program. Hard head development lot method despite.","estimatedTime":"1 weeks","previewFileId":"7ec8d032-3009-458c-be82-a362da0ede3c","createdByUserId":"1d91d6e8-9015-4bf9-ba35-30b82f3e1787"}'

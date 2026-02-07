@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTA3VDE5OjA3OjExLjU4MjIwNSIsInVzZXJfaWQiOiI3MjY1OTRlYi01NGEwLTRiYTktYTA1Yi02MDBiZjA3OGE1NGQifQ.0El0r2US26yhQM6gPKf-ES0qT6rZv2zm1V2jFd856to' \
+  -H 'content-length: 363' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Including born may policy whole.","courseId":"4efb5fbc-d18d-4b82-a448-9ef2f15b1c53","maxScore":93,"minScore":26,"orderIndex":1,"description":"Push gas environment recently fact beyond. Tough meet officer. Strategy positive maybe ready political that media.\nDream detail need maintain go full thank. Real standard which plan.","estimatedTime":"7 weeks"}'
