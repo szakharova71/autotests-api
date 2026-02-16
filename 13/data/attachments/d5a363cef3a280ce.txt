@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTE2VDE0OjQ3OjIwLjU1MDA3NiIsInVzZXJfaWQiOiI3NmUzODUyYS1kMTIwLTRjYTUtYWQyMy1jZDM1YWYyN2ZlOGUifQ.oUWgx3JcQbesOi35aoB4WVVRnQZk7L4EprAyeA_vm0U' \
+  -H 'content-length: 415' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Yeah sea rate event too any score.","maxScore":65,"minScore":30,"description":"Check student activity stay left management agree fight. Hear tough heavy consider stay task fine already. Adult provide easy.\nWife make cover change. Attorney worker success challenge.","estimatedTime":"5 weeks","previewFileId":"7c0124b0-3dda-4bfd-b685-8587c0ab71c0","createdByUserId":"76e3852a-d120-4ca5-ad23-cd35af27fe8e"}'

@@ -1,0 +1,24 @@
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:31 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:31 Make GET request to http://localhost:8000/api/v1/exercises/5c13ad0c-ea2c-4f18-9085-d59b2a2ba2e9
+INFO     HTTP_CLIENT:event_hooks.py:41 Got response 200 OK from http://localhost:8000/api/v1/exercises/5c13ad0c-ea2c-4f18-9085-d59b2a2ba2e9
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:62 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:43 Check exercise
+INFO     BASE_ASSERTIONS:base.py:36 Check that "id" equals to 5c13ad0c-ea2c-4f18-9085-d59b2a2ba2e9
+INFO     BASE_ASSERTIONS:base.py:36 Check that "course_id" equals to fd247f98-7bca-4704-ab62-d8912481e5db
+INFO     BASE_ASSERTIONS:base.py:36 Check that "max_score" equals to 89
+INFO     BASE_ASSERTIONS:base.py:36 Check that "min_score" equals to 2
+INFO     BASE_ASSERTIONS:base.py:36 Check that "order_index" equals to 93
+INFO     BASE_ASSERTIONS:base.py:36 Check that "description" equals to Foreign despite way laugh subject nothing. East owner safe almost and program choice.
+Life return certain rock arrive. Box your almost theory doctor a total arm.
+INFO     BASE_ASSERTIONS:base.py:36 Check that "estimated_time" equals to 10 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

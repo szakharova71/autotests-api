@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTE2VDE0OjQ3OjE4LjE1NzkwOCIsInVzZXJfaWQiOiJmMDhlYjVjZi1jODNkLTRkNTYtYjg1Ni1jY2M4ZmJiMTZiNTcifQ.EJDL6FwD1LscecMcmr_h0g91sHVOYNYXZvFSAJxK8qA' \
+  -H 'content-length: 417' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Case democratic when media.","maxScore":67,"minScore":9,"description":"Between seven success more there central. Third song perform either explain clearly whom. Small describe popular very event car challenge reduce.\nWell it already. Debate interesting perhaps seek.","estimatedTime":"9 weeks","previewFileId":"b5bdd9b1-fd5e-43e8-aeb9-bf25d36755b4","createdByUserId":"f08eb5cf-c83d-4d56-b856-ccc8fbb16b57"}'

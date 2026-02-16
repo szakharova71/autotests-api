@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTE2VDE0OjQ3OjIxLjEzOTYzNSIsInVzZXJfaWQiOiI1NGMyN2VmMy0xMWM2LTQzMGMtYjkyNi05MGI1NTU5YzliMWUifQ.L9Dz7CFS-0_5_ePxuRyH9Uu6E8yfWEooJjcVoA8Q1B0' \
+  -H 'content-length: 413' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Paper weight admit everything many list already.","maxScore":65,"minScore":19,"description":"Term senior guy specific meet attention. Themselves almost purpose serve industry art surface along. Development find drive again.\nSurface bad character American top ok.","estimatedTime":"8 weeks","previewFileId":"91d55504-6ef3-4892-b385-55d6d1458be7","createdByUserId":"54c27ef3-11c6-430c-b926-90b5559c9b1e"}'

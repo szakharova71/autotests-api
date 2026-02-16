@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTE2VDE0OjQ3OjE5LjkyMjIzNyIsInVzZXJfaWQiOiI3OTZjZDgxOC1kZmExLTQxZmYtOWY0Yy0wZjUyOTI3MTMxMDgifQ.cbxcmIQtPjrkdZ72PnxpBk0-ptwa6w_q3qdUTHUzkUo' \
+  -H 'content-length: 357' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Couple professor executive present six agency.","courseId":"fd247f98-7bca-4704-ab62-d8912481e5db","maxScore":89,"minScore":2,"orderIndex":93,"description":"Foreign despite way laugh subject nothing. East owner safe almost and program choice.\nLife return certain rock arrive. Box your almost theory doctor a total arm.","estimatedTime":"10 weeks"}'

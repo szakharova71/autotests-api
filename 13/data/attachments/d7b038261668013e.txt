@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/1b7e3717-d859-454e-8bee-c9a94a7b09c2' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTE2VDE0OjQ3OjE3LjU2NzAyOCIsInVzZXJfaWQiOiIyYWQ2ZmI1Ny04YzAxLTQ0ZWUtYTg4YS01ZDhhZjliZWI2Y2YifQ.14QAWyUghdYkvbPGdThydmdpqJ2_bIl9-PBl2eXkIY4' \
+  -H 'content-length: 213' \
+  -H 'content-type: application/json' \
+  -d '{"title":"City painting stock clearly instead hear that.","maxScore":66,"minScore":19,"description":"Property billion house. Son have throughout he. Country size new food see certainly.","estimatedTime":"4 weeks"}'

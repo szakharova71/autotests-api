@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTE2VDE0OjQ3OjE4Ljc0MTg0MyIsInVzZXJfaWQiOiI3ZDk4Yjc0Ni1jYTIyLTQ1YjYtOWM0Ny0xOGI5OTEzMDg5ZDEifQ.ZNDk9U2CsfX0A8bjKWwJ70rc3gI6P3RBeG_n8BHLu40' \
+  -H 'content-length: 427' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Couple business blue hour reason one modern.","maxScore":73,"minScore":30,"description":"Certainly always perhaps thought laugh. Street campaign likely artist. Discuss his sport husband. Physical clear agent your here analysis among.\nNotice writer live per quite weight life.","estimatedTime":"10 weeks","previewFileId":"862f0f45-9d0b-4784-b336-be7939fa30d7","createdByUserId":"7d98b746-ca22-45b6-9c47-18b9913089d1"}'

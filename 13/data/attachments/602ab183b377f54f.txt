@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTE2VDE0OjQ3OjE5LjkyMjIzNyIsInVzZXJfaWQiOiI3OTZjZDgxOC1kZmExLTQxZmYtOWY0Yy0wZjUyOTI3MTMxMDgifQ.cbxcmIQtPjrkdZ72PnxpBk0-ptwa6w_q3qdUTHUzkUo' \
+  -H 'content-length: 366' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Give include prove those imagine job seem address.","maxScore":97,"minScore":20,"description":"Wrong red someone range remain apply from. Bag threat century.\nAnalysis thank woman dinner matter. Check treat out here.","estimatedTime":"3 weeks","previewFileId":"d217dcf9-5810-40d6-9916-f38deda12438","createdByUserId":"796cd818-dfa1-41ff-9f4c-0f5292713108"}'

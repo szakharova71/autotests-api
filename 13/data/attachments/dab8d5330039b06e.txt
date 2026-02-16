@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTE2VDE0OjQ3OjE5LjMyOTIyNyIsInVzZXJfaWQiOiJhNDE1ZTkyNS0zY2E0LTRjNWItYmYxYS1jMTZjMDZhM2M4YjgifQ.hrOXbJ194COZfYSsQUMhJ38Wk3CWyJxq2np4k7cTFZI' \
+  -H 'content-length: 349' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Person ago fear interesting.","maxScore":83,"minScore":20,"description":"Run toward because back suggest senior. She exactly share away ready Republican. Join especially price list alone too special.","estimatedTime":"6 weeks","previewFileId":"4fa9369a-f570-4869-bd42-1b531b29233d","createdByUserId":"a415e925-3ca4-4c5b-bf1a-c16c06a3c8b8"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTE2VDE0OjQ3OjIwLjU1MDA3NiIsInVzZXJfaWQiOiI3NmUzODUyYS1kMTIwLTRjYTUtYWQyMy1jZDM1YWYyN2ZlOGUifQ.oUWgx3JcQbesOi35aoB4WVVRnQZk7L4EprAyeA_vm0U' \
+  -H 'content-length: 341' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Form pay ground use own feel.","courseId":"5dffa58c-fc5e-4021-93b9-7be628a87acf","maxScore":67,"minScore":29,"orderIndex":44,"description":"With who impact style staff analysis need. Southern various important responsibility.\nMagazine east million personal even ok race. Most would specific hold raise.","estimatedTime":"4 weeks"}'
